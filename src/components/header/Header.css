@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+.header-phone-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-family: "Lato";
+}
+
+.header-phone-icon{
+  margin-right: 5px;
+}
+
+.header-email-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-bottom: 10px;
+  font-family: "Lato";
+}
+
+.header-email-icon{
+  margin-right: 5px;
+}
+
+.header-email {
+  color: white;
+}
+
+.header-email:hover {
+  color:rgb(49, 112, 49);
+}
+
+.header-email:active, .header-email:visited {
+  color: white;
+}
+
+.logo-menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px 10px 5px;
+}
+
+.everly-logo {
+  width:80vw;
+  height: auto;
+}
+
+.menu-icon {
+  height: 2rem;
+  width: auto;
+}
