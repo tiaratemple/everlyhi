@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+section {
+  background-color: rgb(80, 147, 106);
+  padding: 5px 5px;
+}
+
+.phone-banner {
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald";
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.phone-icon {
+  margin-right: 5px;
+}
