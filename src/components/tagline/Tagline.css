@@ -4,13 +4,15 @@
 .home-banner {
   height: 400px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .tagline {
   color: white;
   font-family: "Oswald";
   letter-spacing: 1px;
+  text-align: center;
 }

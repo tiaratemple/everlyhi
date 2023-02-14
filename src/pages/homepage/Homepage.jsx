@@ -9,12 +9,12 @@ const Homepage = () => {
       <p className="homepage-details">
         Welcome to Everly Home Inspections! We are a licensed and fully insured
         home inspection service based in Galt, CA and serving the surrounding
-        areas. Our services include comprehensive home inspections, termite
-        inspections, and pool inspections. Whether you're a home-buyer, investor
-        or selling your property, we can help you. All of our inspections
-        include a detailed report, along with photos of trouble areas. We work
-        with you every step of the way. To schedule an appointment, call (209)
-        625- 5544.
+        areas. Our services include comprehensive home inspections, electrical
+        inspections, roof inspections, HVAC inspections, and more. Whether
+        you're a home-buyer, investor or selling your property, we can help you.
+        All of our inspections include a detailed report, along with photos of
+        trouble areas. We work with you every step of the way. To schedule an
+        appointment, call (209) 625- 5544.
       </p>
       <div className="valve-pic-container">
         <img

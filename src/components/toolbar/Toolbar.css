@@ -3,7 +3,7 @@
   width: 100%;
   background-color: black;
   color:white;
-  height: 80px;
+  height: 90px;
   top: 0;
   left: 0;
 }
@@ -18,7 +18,7 @@
 .toolbar_logo {
   color:white;
   background-color: black;
-  height: 58px;
+  height: 80px;
   width:auto;
   margin: 0 1rem .5rem 0;
 }

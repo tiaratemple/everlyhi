@@ -5,6 +5,10 @@ import Homepage from "./pages/homepage/Homepage";
 import SideDrawer from "./components/sideDrawer/SideDrawer";
 import Backdrop from "./components/backdrop/Backdrop";
 import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import AboutUsPage from "./pages/aboutUsPage/AboutUsPage";
+import ServicesPage from "./pages/servicesPage/ServicesPage";
+import ContactPage from "./pages/contactPage/ContactPage";
 
 function App() {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
@@ -20,13 +24,18 @@ function App() {
   };
 
   return (
-    <div style={{ height: "100%" }}>
+    <div className="App" style={{ height: "100%" }}>
       <Toolbar drawerClickHandler={drawerToggleClickHandler} />
       <SideDrawer show={sideDrawerOpen} />
       {sideDrawerOpen && <Backdrop click={backdropClickHandler} />}
       <PhoneBanner />
       <Tagline />
       <Homepage />
+      <Routes>
+        <Route path="/about" element={<AboutUsPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
     </div>
   );
 }

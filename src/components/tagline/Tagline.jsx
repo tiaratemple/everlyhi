@@ -12,7 +12,6 @@ const Tagline = () => {
           rgba(0, 0, 0, 0.4)),
           url(${homeimg})`,
         backgroundSize: "cover",
-        width: "100vw",
       }}
     >
       <div className="tagline-container">

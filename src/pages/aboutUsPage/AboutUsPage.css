@@ -1,0 +1,88 @@
+.about-page-container {
+ width:100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.about-page-title {
+  margin: 40px 0 40px 0;
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.handshake-pic-container {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.handshake-pic {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+.about-page-details-title-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-page-details-title {
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0 20px 0 20px;
+  width: 75%;
+}
+
+.about-page-line {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(80, 147, 106);
+  margin-top: 5px;
+}
+
+.about-page-details {
+  text-align: center;
+  font-family: "Oswald";
+  font-weight: 200;
+  line-height: 25px;
+  letter-spacing: 1px;
+  margin: 20px 20px 40px 20px;
+}
+
+.about-why-title-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(80, 147, 106);
+  padding-top: 20px;
+}
+
+.about-why-title {
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 0 20px 0 20px;
+  width: 75%;
+}
+
+.about-why-details-container {
+  background-color: rgb(80, 147, 106);
+}
+
+.about-why-details {
+  text-align: center;
+  font-family: "Oswald";
+  font-weight: 200;
+  line-height: 25px;
+  letter-spacing: 1px;
+  margin: 20px 20px 40px 20px;
+}
