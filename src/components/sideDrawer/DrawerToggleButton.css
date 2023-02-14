@@ -1,0 +1,11 @@
+.toggle_btn {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.menu_icon {
+  height:2rem;
+  width: auto;
+}

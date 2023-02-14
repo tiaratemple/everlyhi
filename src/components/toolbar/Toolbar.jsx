@@ -1,14 +1,17 @@
 import React from "react";
+import "./Toolbar.css";
+import everlylogo from "../../assets/everlylogo.PNG";
+import DrawerToggleButton from "../sideDrawer/DrawerToggleButton";
 
-const Toolbar = (props) => {
+const Toolbar = ({ drawerClickHandler }) => {
   return (
-    <header>
-      <nav>
-        <div></div>
+    <header className="toolbar">
+      <nav className="toolbar_nav">
         <div>
-          <a href="/">The logo</a>
+          <img className="toolbar_logo" src={everlylogo} alt="logo" />
         </div>
-        <div>
+        <div className="spacer" />
+        <div className="toolbar_nav_items">
           <ul>
             <li>
               <a href="/">Home</a>
@@ -23,6 +26,9 @@ const Toolbar = (props) => {
               <a href="/">Contact Us</a>
             </li>
           </ul>
+        </div>
+        <div className="toolbar_toggle_btn">
+          <DrawerToggleButton click={drawerClickHandler} />
         </div>
       </nav>
     </header>
