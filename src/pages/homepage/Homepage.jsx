@@ -1,10 +1,12 @@
 import React from "react";
 import "./Homepage.css";
 import valvepic from "../../assets/valvepic.jpeg";
+import Tagline from "../../components/tagline/Tagline";
 
 const Homepage = () => {
   return (
     <div className="homepage-container">
+      <Tagline />
       <h2 className="homepage-title">Comprehensive Inspections</h2>
       <p className="homepage-details">
         Welcome to Everly Home Inspections! We are a licensed and fully insured

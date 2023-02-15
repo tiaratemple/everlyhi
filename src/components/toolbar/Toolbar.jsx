@@ -2,6 +2,7 @@ import React from "react";
 import "./Toolbar.css";
 import everlylogo from "../../assets/everlylogo.PNG";
 import DrawerToggleButton from "../sideDrawer/DrawerToggleButton";
+import { Link } from "react-router-dom";
 
 const Toolbar = ({ drawerClickHandler }) => {
   return (
@@ -14,16 +15,16 @@ const Toolbar = ({ drawerClickHandler }) => {
         <div className="toolbar_nav_items">
           <ul>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/">About Us</a>
+              <Link to="/about">About Us</Link>
             </li>
             <li>
-              <a href="/">Services</a>
+              <Link to="/services">Services</Link>
             </li>
             <li>
-              <a href="/">Contact Us</a>
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>

@@ -1,0 +1,67 @@
+.services-page-container {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services-page-title {
+  margin: 40px 0 40px 0;
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.services-pic-container {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  background-color: rgb(168, 188, 176); 
+  padding: 5px 0 5px 0;
+}
+
+.services-pic {
+  height: auto;
+  width: 90vw;
+}
+
+.services-focus-title-container {
+ width: 90%;
+ text-align: left;
+ margin-left: 10%;
+}
+
+.services-focus-title {
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.services-line {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(80, 147, 106);
+  margin: -4% 0 0 5%;
+}
+
+.services-focus-list {
+ margin-top: 15px;
+}
+
+.ul-services {
+  list-style: none;
+}
+
+.ul-services li::before {
+  content: "\2713\0020";
+  color:rgb(80, 147, 106);
+}
+
+.services-focus-list li {
+  font-family: "Oswald";
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
