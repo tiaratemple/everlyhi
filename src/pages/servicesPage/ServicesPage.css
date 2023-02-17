@@ -17,8 +17,8 @@
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
-  background-color: rgb(168, 188, 176); 
-  padding: 5px 0 5px 0;
+  background-color: rgb(199, 218, 208); 
+  padding: 20px 0 20px 0;
 }
 
 .services-pic {
@@ -42,11 +42,11 @@
   width: 90%;
   height: 2px;
   background-color: rgb(80, 147, 106);
-  margin: -4% 0 0 5%;
+  margin: -2% 0 0 5%;
 }
 
 .services-focus-list {
- margin-top: 15px;
+ margin: 15px 0 15px 0;
 }
 
 .ul-services {
