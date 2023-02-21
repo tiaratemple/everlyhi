@@ -5,6 +5,10 @@
   cursor: pointer;
 }
 
+.toggle_btn:hover {
+  color: rgb(80, 147, 106);
+}
+
 .menu_icon {
   height:2rem;
   width: auto;

@@ -3,7 +3,7 @@ import clipboard from "../../assets/clipboard.jpg";
 import { BiEnvelope } from "react-icons/bi";
 import { FiPhoneCall } from "react-icons/fi";
 import "./ContactPage.css";
-import ContactForm from "../../ContactForm";
+import ContactForm from "../../contactForm/ContactForm";
 
 const ContactPage = () => {
   return (

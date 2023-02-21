@@ -31,6 +31,7 @@ const ServicesPage = () => {
           <li>Walls (Interior and Exterior)</li>
           <li>Ducts and Vents</li>
           <li>Porches, Decks, and Carports</li>
+          <li>Swimming Pools</li>
         </ul>
       </div>
     </div>

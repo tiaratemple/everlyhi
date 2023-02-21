@@ -1,0 +1,100 @@
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cert-title {
+  margin: 40px 0 40px 0;
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 200;
+}
+
+.cert-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cert {
+  height: 50%;
+  width:50%;
+  margin-bottom: 10%;
+}
+
+.footer-everly-logo-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 5% 0 5%;
+  background-color: rgb(234, 231, 231);
+}
+
+
+.footer-logo {
+  color:black;
+  background-color: rgb(234, 231, 231);
+  height: 100px;
+  width:40%;
+  padding: 5%;
+}
+
+.footer-info-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(234, 231, 231);
+  width: 100%;
+  font-family: "Oswald";
+  padding-bottom: 20px;
+}
+
+.footer-info-icon {
+  margin-right: 5px;
+}
+
+.footer-phone-container, 
+.footer-location-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links-container {
+  background-color: black;
+  width: 100%;
+  margin-top: 0;
+}
+
+.footer-links-container ul {
+  list-style: none;
+  margin: 40px 20px 20px 20px;
+  padding: 5px;
+}
+
+.footer-links-container li {
+  padding: 0 0.5rem;
+  margin-bottom: 5%;
+}
+
+.footer-links-container a {
+  color:white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Oswald";
+}
+
+.footer-links-container a:hover,
+.footer-links-container a:active {
+  color: rgb(80, 147, 106);
+}

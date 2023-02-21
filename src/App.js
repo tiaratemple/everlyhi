@@ -8,6 +8,7 @@ import AboutUsPage from "./pages/aboutUsPage/AboutUsPage";
 import ServicesPage from "./pages/servicesPage/ServicesPage";
 import ContactPage from "./pages/contactPage/ContactPage";
 import PhoneBanner from "./components/phoneBanner/PhoneBanner";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
@@ -36,6 +37,7 @@ function App() {
       <Toolbar drawerClickHandler={drawerToggleClickHandler} />
       <SideDrawer show={sideDrawerOpen} />
       {sideDrawerOpen && <Backdrop click={backdropClickHandler} />}
+      <Footer />
     </div>
   );
 }

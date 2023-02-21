@@ -1,0 +1,75 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  background-color: rgb(80, 147, 106);
+  padding: 10% 0;
+  margin: 0 0 10% 5%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  width: 80%;
+}
+
+.contact-message-title {
+  margin: 0 0 20px 0;
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 200;
+  font-size: x-large;
+  color: white;
+}
+
+label {
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+input {
+  margin-bottom: .5rem;
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  font-weight: 200;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+textarea {
+  margin-bottom: .5rem;
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  font-weight: 200;
+  height: 60px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.form-btn {
+  color:white;
+  background-color: black;
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  font-weight: 400;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+.contact-message {
+  font-family: "Oswald";
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 400;
+  font-size: x-large;
+}
+
+
