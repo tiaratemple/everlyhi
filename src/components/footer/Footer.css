@@ -70,6 +70,22 @@
   align-items: center;
 }
 
+.footer-hours-container {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Oswald";
+  padding-bottom: 50px;
+}
+
+.hours-title {
+  margin: 40px 0 0 0;
+}
+
 .footer-links-container {
   background-color: black;
   width: 100%;
@@ -78,13 +94,12 @@
 
 .footer-links-container ul {
   list-style: none;
-  margin: 40px 20px 20px 20px;
-  padding: 5px;
+  padding: 20px 0 15px 70px;
 }
 
 .footer-links-container li {
   padding: 0 0.5rem;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 .footer-links-container a {
@@ -97,4 +112,39 @@
 .footer-links-container a:hover,
 .footer-links-container a:active {
   color: rgb(80, 147, 106);
+}
+
+.footer-line {
+  width: 100%;
+  background-color: white;
+  height: 1px;
+}
+
+.footer-copyright-container {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: "Oswald";
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+}
+
+.spacer-footer {
+  margin-right: 3px;
+}
+
+.portfolio {
+  text-decoration: none;
+  color:gray;
+}
+
+.portfolio:hover {
+  color:rgb(80, 147, 106);
+}
+
+.portfolio:visited {
+  color:gray;
 }

@@ -7,6 +7,7 @@ const SideDrawer = ({ show }) => {
   if (show) {
     drawerClasses = "side_drawer open";
   }
+
   return (
     <nav className={drawerClasses}>
       <ul>

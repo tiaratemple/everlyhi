@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import everlylogo from "../../assets/everlylogo.PNG";
 import "./Footer.css";
 import internachigold from "../../assets/internachigold.jpeg";
@@ -8,8 +8,16 @@ import moveincert from "../../assets/moveincert.jpg";
 import { Link } from "react-router-dom";
 import { FiPhoneCall } from "react-icons/fi";
 import { CiLocationOn } from "react-icons/ci";
+import { BiCopyright } from "react-icons/bi";
 
 const Footer = () => {
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(true);
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div className="footer-container">
       <h2 className="cert-title">CERTIFICATIONS</h2>
@@ -48,22 +56,43 @@ const Footer = () => {
           <p className="footer-location-details">Galt, CA</p>
         </div>
       </span>
+      <div className="footer-hours-container">
+        <h4 className="hours-title">Hours</h4>
+        <p className="hours-details">Monday-Friday: 7AM-8AM, Sunday: Closed</p>
+      </div>
       <section className="footer-links-container">
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={handleClick}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/about">About Us</Link>
+            <Link to="/about" onClick={handleClick}>
+              About Us
+            </Link>
           </li>
           <li>
-            <Link to="/services">Services</Link>
+            <Link to="/services" onClick={handleClick}>
+              Services
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact Us</Link>
+            <Link to="/contact" onClick={handleClick}>
+              Contact Us
+            </Link>
           </li>
         </ul>
       </section>
+      <div className="footer-line"></div>
+      <div className="footer-copyright-container">
+        <BiCopyright className="copy-icon" />
+        <p className="footer-copyright">2023 Web Design by</p>
+        <div className="spacer-footer" />
+        <a href="http://tmtemple.com" className="portfolio">
+          Tiara Temple
+        </a>
+      </div>
     </div>
   );
 };
