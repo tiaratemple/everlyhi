@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import everlylogo from "../../assets/everlylogo.PNG";
 import "./Footer.css";
 import internachigold from "../../assets/internachigold.jpeg";
@@ -11,10 +11,7 @@ import { CiLocationOn } from "react-icons/ci";
 import { BiCopyright } from "react-icons/bi";
 
 const Footer = () => {
-  const [clicked, setClicked] = useState(false);
-
   const handleClick = () => {
-    setClicked(true);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 

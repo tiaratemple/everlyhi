@@ -15,7 +15,6 @@ function App() {
 
   //Method handles setting the side drawer state
   const drawerToggleClickHandler = () => {
-    console.log("method");
     setSideDrawerOpen(true);
   };
 
@@ -35,7 +34,7 @@ function App() {
       </Routes>
       {/* Always show components */}
       <Toolbar drawerClickHandler={drawerToggleClickHandler} />
-      <SideDrawer show={sideDrawerOpen} />
+      <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} />
       {sideDrawerOpen && <Backdrop click={backdropClickHandler} />}
       <Footer />
     </div>

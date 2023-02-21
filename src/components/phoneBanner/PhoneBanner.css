@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 
-section {
+.phone-banner-container {
   background-color: rgb(80, 147, 106);
   padding: 2px 5px 2px 5px;
   margin-top: 90px;
