@@ -6,19 +6,23 @@
   margin-top: 90px;
 }
 
-.phone-banner {
+.phone-banner-link {
   background-color: black;
-  color: white;
-  padding: 15px 15px;
+  margin: 10px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
   font-family: "Oswald";
   line-height: 30px;
   letter-spacing: 1px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
 }
 
 .phone-icon {
   margin-right: 5px;
+}
+
+.phone-banner-link:hover {
+  color: rgb(80, 147, 106);
 }

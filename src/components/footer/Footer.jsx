@@ -49,7 +49,7 @@ const Footer = () => {
           <p className="footer-phone-number">(209) 625-5544</p>
         </div>
         <div className="footer-location-container">
-          <CiLocationOn className="footer-info-icon" />
+          {/* <CiLocationOn className="footer-info-icon"/> */}
           <p className="footer-location-details">Galt, CA</p>
         </div>
       </span>
