@@ -44,7 +44,7 @@
   color:black;
   background-color: rgb(234, 231, 231);
   height: 100px;
-  width:40%;
+  width:50%;
   padding: 5%;
 }
 
@@ -85,20 +85,27 @@
   margin: 40px 0 0 0;
 }
 
+.footer-links-social-container {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0 20px 0;
+}
+
 .footer-links-container {
   background-color: black;
-  width: 100%;
-  margin-top: 0;
 }
 
 .footer-links-container ul {
   list-style: none;
-  padding: 20px 0 15px 70px;
+  padding-inline-start: unset;
 }
 
 .footer-links-container li {
-  padding: 0 0.5rem;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
 }
 
 .footer-links-container a {
@@ -111,6 +118,40 @@
 .footer-links-container a:hover,
 .footer-links-container a:active {
   color: rgb(80, 147, 106);
+}
+
+.social-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+.social-title {
+  color: white;
+  font-family: "Oswald";
+  font-size: 1.2rem;
+}
+
+.social-link-container {
+  display: flex;
+  flex-direction: row;
+  width:50%;
+  justify-content: space-evenly;
+}
+
+.social-icon {
+  color:white;
+  height: 20px;
+  width:20px;
+}
+
+.social-icon:visited {
+  color:white;
+}
+
+.social-icon:hover {
+  color:rgb(80, 147, 106);
 }
 
 .footer-line {
@@ -140,10 +181,65 @@
   color:gray;
 }
 
+.portfolio:visited {
+  color:gray;
+}
+
 .portfolio:hover {
   color:rgb(80, 147, 106);
 }
 
-.portfolio:visited {
-  color:gray;
+@media (min-width: 500px) {
+
+  .footer-logo {
+    height: 90px;
+    width: 25%;
+  }
+
+  .cert {
+    height: 30%;
+    width:30%;
+  }
+
+}
+
+@media (min-width: 769px) {
+
+
+  .cert-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .cert {
+    height: 15%;
+    width:15%;
+  }
+  
+  .footer-logo {
+    height: 110px;
+    width:25%;
+  }
+
+  .footer-hours-container {
+    width: 100%;
+    background-color: rgb(234, 231, 231);
+    color: black;
+  }
+  
+  .hours-title {
+    color: black;
+  }
+
+  .hours-details {
+    color:black;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .footer-logo {
+    height: 150px;
+    width: 25%;
+  }
 }

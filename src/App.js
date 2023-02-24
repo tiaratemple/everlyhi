@@ -23,8 +23,12 @@ function App() {
   };
 
   return (
-    <div className="App" style={{ height: "100%" }}>
+    <div className="App">
+      {/* Always show components */}
+      <Toolbar drawerClickHandler={drawerToggleClickHandler} />
       <PhoneBanner />
+      <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} />
+      {sideDrawerOpen && <Backdrop click={backdropClickHandler} />}
       {/* Only show components below if on specific path in url */}
       <Routes>
         <Route path="/" element={<Homepage />} />
@@ -32,10 +36,6 @@ function App() {
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
-      {/* Always show components */}
-      <Toolbar drawerClickHandler={drawerToggleClickHandler} />
-      <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} />
-      {sideDrawerOpen && <Backdrop click={backdropClickHandler} />}
       <Footer />
     </div>
   );

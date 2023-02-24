@@ -5,6 +5,9 @@ import DrawerToggleButton from "../sideDrawer/DrawerToggleButton";
 import { Link } from "react-router-dom";
 
 const Toolbar = ({ drawerClickHandler }) => {
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <header className="toolbar">
       <nav className="toolbar_nav">
@@ -15,16 +18,24 @@ const Toolbar = ({ drawerClickHandler }) => {
         <div className="toolbar_nav_items">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={handleClick}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/about">About Us</Link>
+              <Link to="/about" onClick={handleClick}>
+                About Us
+              </Link>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <Link to="/services" onClick={handleClick}>
+                Services
+              </Link>
             </li>
             <li>
-              <Link to="/contact">Contact Us</Link>
+              <Link to="/contact" onClick={handleClick}>
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>

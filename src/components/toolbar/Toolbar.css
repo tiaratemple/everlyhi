@@ -1,6 +1,5 @@
 .toolbar {
-  position: fixed;
-  width: 100%;
+  position: sticky;
   background-color: black;
   color:white;
   height: 90px;
@@ -32,6 +31,7 @@
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-around;
 }
 
 .toolbar_nav_items li {
@@ -59,6 +59,7 @@
   .toolbar_toggle_btn {
     display: none;
   }
+
 }
 
 

@@ -16,3 +16,19 @@
   letter-spacing: 1px;
   text-align: center;
 }
+
+@media (min-width: 769px) {
+  .home-banner {
+    height: 600px;
+  }
+}
+
+@media (min-width: 900px) {
+  .home-banner {
+    height: 800px;
+  }
+
+  .tagline {
+    font-size: 3rem;
+  }
+}

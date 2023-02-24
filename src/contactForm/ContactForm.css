@@ -6,7 +6,6 @@
   width: 90%;
   background-color: rgb(80, 147, 106);
   padding: 10% 0;
-  margin: 0 0 10% 5%;
 }
 
 form {
@@ -72,4 +71,24 @@ textarea {
   font-size: x-large;
 }
 
+@media (min-width: 500px) {
+  .form-container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 769px) {
+  
+  .form-container {
+    width: 50%;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .form-container {
+    width: 35%;
+    padding: 5% 0;
+  }
+}
 

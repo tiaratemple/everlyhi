@@ -3,7 +3,6 @@
 .phone-banner-container {
   background-color: rgb(80, 147, 106);
   padding: 2px 5px 2px 5px;
-  margin-top: 90px;
 }
 
 .phone-banner-link {
@@ -21,8 +20,31 @@
 
 .phone-icon {
   margin-right: 5px;
+  font-size: 2rem;
 }
 
 .phone-banner-link:hover {
   color: rgb(80, 147, 106);
+}
+
+.phone-banner-link:visited {
+  color:white;
+}
+
+
+@media only screen and (min-width: 769px) {
+  
+  .phone-banner-container {
+    padding: 2px 0 2px 0;
+  }
+  
+  .phone-banner-link {
+    background-color:rgb(80, 147, 106);
+    justify-content: right;
+    margin: 0 20px 0 0;
+  }
+
+  .phone-banner-link:hover {
+    color: black;
+  }
 }
