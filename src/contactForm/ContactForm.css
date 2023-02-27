@@ -5,7 +5,7 @@
   justify-content: center;
   width: 90%;
   background-color: rgb(80, 147, 106);
-  padding: 10% 0;
+  padding: 5% 0;
 }
 
 form {
@@ -14,6 +14,7 @@ form {
   align-items: left;
   justify-content: center;
   width: 80%;
+  height: auto;
 }
 
 .contact-message-title {
