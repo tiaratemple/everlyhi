@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import everlylogo from "../../assets/everlylogo.PNG";
 import "./Footer.css";
 import internachigold from "../../assets/internachigold.jpeg";
@@ -16,6 +16,10 @@ const Footer = () => {
   const handleClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
 
   return (
     <div className="footer-container">
