@@ -31,7 +31,7 @@ const ContactPage = () => {
       </div>
       <div className="contact-phone-icon-container">
         <FiPhoneCall className="contact-icon" />
-        <a href="tel:+2096255544" className="contact-phone-number">
+        <a href="tel:2096255544" className="contact-phone-number">
           (209) 625-5544
         </a>
       </div>
