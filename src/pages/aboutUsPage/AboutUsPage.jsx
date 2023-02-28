@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./AboutUsPage.css";
 import handshake from "../../assets/handshake.jpg";
 
 const AboutUsPage = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <div className="about-page-container">
       <h1 className="about-page-title">About Us</h1>

@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Homepage.css";
 import valvepic from "../../assets/valvepic.jpeg";
 import Tagline from "../../components/tagline/Tagline";
 
 const Homepage = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <div className="homepage-container">
       <Tagline />

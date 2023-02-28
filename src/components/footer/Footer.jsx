@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import everlylogo from "../../assets/everlylogo.PNG";
 import "./Footer.css";
 import internachigold from "../../assets/internachigold.jpeg";
@@ -14,13 +14,8 @@ import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   const handleClick = () => {
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <div className="footer-container">
       <h2 className="cert-title">CERTIFICATIONS</h2>
