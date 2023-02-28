@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import everlylogo from "../../assets/everlylogo.PNG";
 import "./Footer.css";
 import internachigold from "../../assets/internachigold.jpeg";
@@ -13,15 +13,13 @@ import { FaFacebook } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
-  const [scrollToTop, setScrollToTop] = useState(false);
-
   const handleClick = () => {
-    setScrollToTop(true);
+    window.scrollTo(0, 0);
   };
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }, [scrollToTop]);
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="footer-container">
