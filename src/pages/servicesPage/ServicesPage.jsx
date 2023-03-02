@@ -13,7 +13,7 @@ const ServicesPage = () => {
         <img
           className="services-pic"
           src={services}
-          alt="house with arrows reflecting points of service areas"
+          alt="house with arrows indicating points of service areas"
         />
       </div>
       <div className="services-focus-title-container">

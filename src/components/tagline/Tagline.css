@@ -10,11 +10,36 @@
   width: 100%;
 }
 
+.tagline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .tagline {
   color: white;
   font-family: "Oswald";
   letter-spacing: 1px;
   text-align: center;
+  font-size: xx-large;
+}
+
+.tagline-btn {
+  background-color: rgb(80, 147, 106);
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: .3s;
+  font-family: "Oswald";
+}
+
+.tagline-btn:hover {
+  opacity: .8;
+  background-color: white;
 }
 
 @media (min-width: 769px) {
@@ -25,10 +50,11 @@
 
 @media (min-width: 900px) {
   .home-banner {
-    height: 800px;
+    height: 550px;
+    width: 100%;
   }
 
   .tagline {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }

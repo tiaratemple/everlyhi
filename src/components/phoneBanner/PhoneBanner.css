@@ -20,7 +20,11 @@
 
 .phone-icon {
   margin-right: 5px;
-  font-size: 2rem;
+  font-size: 1.5rem;
+}
+
+.phone-text {
+  font-size: 1.5rem;
 }
 
 .phone-banner-link:hover {
@@ -35,13 +39,21 @@
 @media only screen and (min-width: 769px) {
   
   .phone-banner-container {
-    padding: 2px 0 2px 0;
+    padding: unset;
   }
   
   .phone-banner-link {
     background-color:rgb(80, 147, 106);
     justify-content: right;
     margin: 0 20px 0 0;
+  }
+
+  .phone-icon {
+    font-size: 1.5rem;
+  }
+  
+  .phone-text {
+    font-size: 1.5rem;
   }
 
   .phone-banner-link:hover {

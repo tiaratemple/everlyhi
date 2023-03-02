@@ -16,7 +16,7 @@ const ContactPage = () => {
         <img
           className="contact-pic"
           src={clipboard}
-          alt="clipboard with home inspection form"
+          alt="A clipboard with a home inspection form on a table with a magnifying glass"
         />
       </div>
       <p className="contact-paragraph">

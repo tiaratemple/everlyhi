@@ -23,22 +23,22 @@ const Footer = () => {
         <img
           className="cert"
           src={internachigold}
-          alt="internachi certified gold logo"
+          alt="A gold badge indicating that we are certified by InterNACHI as home inpsectors"
         />
         <img
           className="cert"
           src={poolcert}
-          alt="internachi pool inspector certified logo"
+          alt="A badge indicating that we are certified by InterNACHI to inspect pools and spas"
         />
         <img
           className="cert"
           src={firsthomecert}
-          alt="internachi first home buyer friendly certified logo"
+          alt="A badge indicating that InterNACHI certifies us to be First Time Home Buyer Friendly"
         />
         <img
           className="cert"
           src={moveincert}
-          alt="internachi move-in certified logo"
+          alt="A badge indicating that we are certified to have homes Pre-Inspected and Ready to move in"
         />
       </div>
       <div className="footer-everly-logo-container">
@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
       </span>
       <div className="footer-hours-container">
-        <h4 className="hours-title">Hours</h4>
+        <h3 className="hours-title">Hours</h3>
         <p className="hours-details">Monday-Friday: 7AM-8AM, Sunday: Closed</p>
       </div>
       <div className="footer-links-social-container">
@@ -84,7 +84,7 @@ const Footer = () => {
           </ul>
         </section>
         <div className="social-container">
-          <h4 className="social-title">Follow</h4>
+          <h3 className="social-title">Follow</h3>
           <div className="social-link-container">
             <a
               href="https://www.facebook.com/everlyhomeinspections/"
@@ -103,10 +103,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-line"></div>
       <div className="footer-copyright-container">
         <BiCopyright className="copy-icon" />
-        <p className="footer-copyright">2023 Web Design by</p>
+        <p className="footer-copyright">
+          2023 Everly Home Inspections | Website by
+        </p>
         <div className="spacer-footer" />
         <a
           href="http://tmtemple.com"

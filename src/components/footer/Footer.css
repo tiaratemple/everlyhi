@@ -43,7 +43,7 @@
 .footer-logo {
   color:black;
   background-color: rgb(234, 231, 231);
-  height: 70px;
+  height: auto;
   width: 150px;
   padding: 5%;
 }
@@ -154,12 +154,6 @@
   color:rgb(80, 147, 106);
 }
 
-.footer-line {
-  width: 100%;
-  background-color: white;
-  height: 1px;
-}
-
 .footer-copyright-container {
   width: 100%;
   background-color: black;
@@ -192,7 +186,7 @@
 @media (min-width: 500px) {
 
   .footer-logo {
-    height: 90px;
+    height: auto;
     width: 25%;
   }
 
@@ -217,7 +211,7 @@
   }
   
   .footer-logo {
-    height: 110px;
+    height: auto;
     width:25%;
   }
 
@@ -239,7 +233,7 @@
 
 @media (min-width: 1200px) {
   .footer-logo {
-    height: 150px;
+    height: auto;
     width: 25%;
   }
 }

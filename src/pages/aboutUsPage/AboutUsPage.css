@@ -20,9 +20,8 @@
 }
 
 .handshake-pic {
-  height: 400px;
-  width: 400px;
-  border-radius: 50%;
+  height: auto;
+  width: 100%;
 }
 
 .about-page-details-title-container {
@@ -92,8 +91,9 @@
   .handshake-pic {
     border-radius: 15px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
-    height:350px;
-  }
+    height:auto;
+    width: 50%;  
+}
 
   .about-page-details-title{
     margin-top: 30px;
@@ -102,9 +102,5 @@
   .about-page-details-container {
     width: 70%;
     margin: 10px 0 30px 15%;
-  }
-  
-  .about-page-details {
-    text-align: left;
   }    
 }

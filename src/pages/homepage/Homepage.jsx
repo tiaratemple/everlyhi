@@ -1,15 +1,25 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Homepage.css";
 import valvepic from "../../assets/valvepic.jpeg";
 import Tagline from "../../components/tagline/Tagline";
 
 const Homepage = () => {
+  const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+    window.addEventListener("resize", setMode);
   }, []);
+
+  const setMode = () => {
+    if (window.innerWidth < 481) {
+      setIsMobile(true);
+    } else {
+      setIsMobile(false);
+    }
+  };
   return (
     <div className="homepage-container">
-      <Tagline />
+      <Tagline isMobile={isMobile} />
       <h2 className="homepage-title">Comprehensive Inspections</h2>
       <p className="homepage-details">
         Welcome to Everly Home Inspections! We are a licensed and fully insured
@@ -29,9 +39,9 @@ const Homepage = () => {
         />
       </div>
       <div className="discount-section">
-        <h2 className="discount">
+        <p className="discount">
           We proudly offer a 10% discount for Military and First Responders!
-        </h2>
+        </p>
       </div>
     </div>
   );
