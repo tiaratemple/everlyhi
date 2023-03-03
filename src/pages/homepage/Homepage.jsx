@@ -6,7 +6,6 @@ import Tagline from "../../components/tagline/Tagline";
 const Homepage = () => {
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
     window.addEventListener("resize", setMode);
   }, []);
 

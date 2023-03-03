@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import clipboard from "../../assets/clipboard.jpg";
 import { BiEnvelope } from "react-icons/bi";
 import { FiPhoneCall } from "react-icons/fi";
@@ -6,9 +6,6 @@ import "./ContactPage.css";
 import ContactForm from "../../contactForm/ContactForm";
 
 const ContactPage = () => {
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }, []);
   return (
     <div className="contact-page-container">
       <h1 className="contact-page-title">Contact Us</h1>

@@ -1,11 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./ServicesPage.css";
 import services from "../../assets/services.webp";
 
 const ServicesPage = () => {
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }, []);
   return (
     <div className="services-page-container">
       <h1 className="services-page-title">Quality Services</h1>

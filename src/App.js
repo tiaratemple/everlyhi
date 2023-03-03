@@ -1,7 +1,5 @@
 import Toolbar from "./components/toolbar/Toolbar";
 import Homepage from "./pages/homepage/Homepage";
-import SideDrawer from "./components/sideDrawer/SideDrawer";
-import Backdrop from "./components/backdrop/Backdrop";
 import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import AboutUsPage from "./pages/aboutUsPage/AboutUsPage";
@@ -25,10 +23,13 @@ function App() {
   return (
     <div className="App">
       {/* Always show components */}
-      <Toolbar drawerClickHandler={drawerToggleClickHandler} />
+      <Toolbar
+        drawerClickHandler={drawerToggleClickHandler}
+        setSideDrawerOpen={setSideDrawerOpen}
+        showSideNav={sideDrawerOpen}
+        closeSideNav={backdropClickHandler}
+      />
       <PhoneBanner />
-      <SideDrawer show={sideDrawerOpen} setSideDrawerOpen={setSideDrawerOpen} />
-      {sideDrawerOpen && <Backdrop click={backdropClickHandler} />}
       {/* Only show components below if on specific path in url */}
       <Routes>
         <Route path="/" element={<Homepage />} />

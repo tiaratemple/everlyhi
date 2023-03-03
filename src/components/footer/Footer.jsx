@@ -11,10 +11,9 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import { BiCopyright } from "react-icons/bi";
 import { FaFacebook } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
-
 const Footer = () => {
   const handleClick = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo(0, 0);
   };
   return (
     <div className="footer-container">
@@ -62,22 +61,22 @@ const Footer = () => {
         <section className="footer-links-container">
           <ul>
             <li>
-              <Link to="/" onClick={handleClick}>
+              <Link to="/" onClick={() => handleClick()}>
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/about" onClick={handleClick}>
+              <Link to="/about" onClick={() => handleClick()}>
                 About Us
               </Link>
             </li>
             <li>
-              <Link to="/services" onClick={handleClick}>
+              <Link to="/services" onClick={() => handleClick()}>
                 Services
               </Link>
             </li>
             <li>
-              <Link to="/contact" onClick={handleClick}>
+              <Link to="/contact" onClick={() => handleClick()}>
                 Contact Us
               </Link>
             </li>
