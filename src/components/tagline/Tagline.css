@@ -58,3 +58,9 @@
     font-size: 2.5rem;
   }
 }
+
+@media (min-width: 1100px) {
+  .home-banner {
+    height: 750px;
+  }
+}
