@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import homeimg from "../../assets/homeimg.jpeg";
 import "./Tagline.css";
 import { Link } from "react-router-dom";
 
-const Tagline = ({ isMobile }) => {
+const Tagline = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    window.addEventListener("resize", setMode);
+  }, []);
+
+  const setMode = () => {
+    if (window.innerWidth < 481) {
+      setIsMobile(true);
+    } else {
+      setIsMobile(false);
+    }
+  };
   return (
     <>
       <div

@@ -1,24 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Homepage.css";
 import valvepic from "../../assets/valvepic.jpeg";
 import Tagline from "../../components/tagline/Tagline";
 
 const Homepage = () => {
-  const [isMobile, setIsMobile] = useState(false);
-  useEffect(() => {
-    window.addEventListener("resize", setMode);
-  }, []);
-
-  const setMode = () => {
-    if (window.innerWidth < 481) {
-      setIsMobile(true);
-    } else {
-      setIsMobile(false);
-    }
-  };
   return (
     <div className="homepage-container">
-      <Tagline isMobile={isMobile} />
+      <Tagline />
       <h2 className="homepage-title">Comprehensive Inspections</h2>
       <p className="homepage-details">
         Welcome to Everly Home Inspections! We are a licensed and fully insured
