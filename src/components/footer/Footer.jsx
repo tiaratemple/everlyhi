@@ -55,7 +55,9 @@ const Footer = () => {
       </span>
       <div className="footer-hours-container">
         <h3 className="hours-title">Hours</h3>
-        <p className="hours-details">Monday-Friday: 7AM-8AM, Sunday: Closed</p>
+        <p className="hours-details">
+          Monday-Saturday: 7AM-8AM, Sunday: Closed
+        </p>
       </div>
       <div className="footer-links-social-container">
         <section className="footer-links-container">
